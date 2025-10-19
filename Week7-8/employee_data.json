@@ -1,0 +1,81 @@
+{
+  "employees": {
+    "Alice": {
+      "Monday": "Morning",
+      "Tuesday": "Afternoon",
+      "Wednesday": "Evening",
+      "Thursday": "Morning",
+      "Friday": "Afternoon"
+    },
+    "Bob": {
+      "Monday": "Afternoon",
+      "Tuesday": "Evening",
+      "Wednesday": "Morning",
+      "Thursday": "Afternoon",
+      "Saturday": "Morning"
+    },
+    "Charlie": {
+      "Tuesday": "Morning",
+      "Wednesday": "Afternoon",
+      "Thursday": "Evening",
+      "Friday": "Morning",
+      "Sunday": "Afternoon"
+    },
+    "Diana": {
+      "Monday": "Evening",
+      "Wednesday": "Morning",
+      "Friday": "Evening",
+      "Saturday": "Afternoon",
+      "Sunday": "Morning"
+    },
+    "Eve": {
+      "Tuesday": "Morning",
+      "Thursday": "Afternoon",
+      "Friday": "Morning",
+      "Saturday": "Evening",
+      "Sunday": "Evening"
+    },
+    "Frank": {
+      "Monday": "Afternoon",
+      "Tuesday": "Evening",
+      "Wednesday": "Morning",
+      "Thursday": "Evening",
+      "Saturday": "Morning"
+    },
+    "Grace": {
+      "Monday": "Morning",
+      "Tuesday": "Afternoon",
+      "Wednesday": "Evening",
+      "Thursday": "Morning",
+      "Friday": "Afternoon"
+    },
+    "Ivy": {
+      "Tuesday": "Morning",
+      "Wednesday": "Afternoon",
+      "Thursday": "Evening",
+      "Friday": "Morning",
+      "Sunday": "Afternoon"
+    },
+    "Jack": {
+      "Monday": "Evening",
+      "Wednesday": "Morning",
+      "Friday": "Evening",
+      "Saturday": "Afternoon",
+      "Sunday": "Morning"
+    },
+    "Noah": {
+      "Monday": "Afternoon",
+      "Tuesday": "Evening",
+      "Wednesday": "Morning",
+      "Thursday": "Afternoon",
+      "Saturday": "Evening"
+    },
+    "Olivia": {
+      "Monday": "Evening",
+      "Tuesday": "Morning",
+      "Wednesday": "Afternoon",
+      "Thursday": "Evening",
+      "Sunday": "Evening"
+    }
+  }
+}
