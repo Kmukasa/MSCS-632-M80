@@ -130,11 +130,11 @@ class EmployeeScheduler:
                         double_shift_violations.append(f"{employee.name} on {day}")
         
         if double_shift_violations:
-            print("❌ VIOLATION: Employees working multiple shifts per day:")
+            print("VIOLATION: Employees working multiple shifts per day:")
             for violation in double_shift_violations:
                 print(f"   - {violation}")
         else:
-            print("✅ No employee works more than 1 shift per day")
+            print("No employee works more than 1 shift per day")
         
         # Check 2: No employee works more than 5 days per week
         max_days_violations = []
@@ -143,11 +143,11 @@ class EmployeeScheduler:
                 max_days_violations.append(f"{employee.name}: {employee.working_days} days")
         
         if max_days_violations:
-            print("❌ VIOLATION: Employees working more than 5 days:")
+            print("VIOLATION: Employees working more than 5 days:")
             for violation in max_days_violations:
                 print(f"   - {violation}")
         else:
-            print("✅ No employee works more than 5 days per week")
+            print("No employee works more than 5 days per week")
         
         # Check 3: Exactly 2 employees per shift per day
         incorrect_staffing = []
@@ -158,18 +158,18 @@ class EmployeeScheduler:
                     incorrect_staffing.append(f"{day} {shift}: {employee_count} employees")
         
         if incorrect_staffing:
-            print("❌ VIOLATION: Shifts with incorrect staffing (should have exactly 2 employees):")
+            print("VIOLATION: Shifts with incorrect staffing (should have exactly 2 employees):")
             for violation in incorrect_staffing:
                 print(f"   - {violation}")
         else:
-            print("✅ All shifts have exactly 2 employees")
+            print("All shifts have exactly 2 employees")
         
         # Summary
         total_violations = len(double_shift_violations) + len(max_days_violations) + len(incorrect_staffing)
         if total_violations == 0:
-            print("\n🎉 ALL CONSTRAINTS SATISFIED!")
+            print("\n ALL CONSTRAINTS SATISFIED!")
         else:
-            print(f"\n⚠️  {total_violations} constraint violations found")
+            print(f"\n  {total_violations} constraint violations found")
         
         print()
     
