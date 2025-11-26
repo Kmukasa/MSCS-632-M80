@@ -1,0 +1,46 @@
+# Ignore pyenv files
+.python-version
+pyenv*
+/pyenv*
+.env
+/venv
+/venv/
+/.env
+# Sometimes pyenv places shims in bin/
+bin/activate*
+# Common pyenv directories
+/.pyenv*
+pyenv-*
+# Pyenv local virtualenvs
+.venv
+.venv/
+/.venv*
+# Special pyenv build/work trees
+/pyenv-win/
+/pyenv-win*
+
+week5/*
+
+# Build artifacts
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+data_processing_system
+ride_sharing_app
+
+# Go build artifacts
+go.sum
+*.test
+*.out
+
+# IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
